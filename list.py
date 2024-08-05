@@ -18,3 +18,4 @@
 # l1 = [ 1, 2, 3, 4, 5]
 # print(l1[-1::-2]) reverse List
 # print(l1[::2])  increment list 
+
