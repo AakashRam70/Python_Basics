@@ -16,4 +16,9 @@ def sum(a,b=3):
     print(a+b)
 sum(10)
 
+# Return Value 
+def square(x):
+    return x*x,x*2
+s = square(5)
+print(s)
 
