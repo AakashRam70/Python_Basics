@@ -5,6 +5,7 @@ l =[]
 while True:
     c=int(
         input('''
+Enter Any Number..
 1. Push Elements
 2. Pop Elements
 3. Peek Elements
@@ -15,7 +16,7 @@ while True:
     )
 
     if c==1:
-        n=input("Enter the value");
+        n=input("Enter the value:-");
         l.append(n)
         print(l)
     elif c==2:
@@ -23,7 +24,7 @@ while True:
             print("Empty Stack")
         else:
             p=l.pop()
-            print(p)
+            print("You Are Deleting", p)
             print(l)
     elif c==3:
         if len(l)==0:
@@ -31,7 +32,7 @@ while True:
         else:
             print("Last Stack Value", l[-1])
     elif c==4:
-        print("Dispaly Stack", l)
+        print("Dispaly Stack :-", l)
     elif c==5:
         break;
         
