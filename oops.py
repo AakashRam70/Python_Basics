@@ -12,6 +12,8 @@
 
 class DemoObject:
     a =10
+    def __init__(self):
+        print("constructor")
     def showvalue(self):
        self.c = self.a*self.a
        print(self.c)
