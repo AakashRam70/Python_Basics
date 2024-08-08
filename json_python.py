@@ -11,4 +11,16 @@ d = {
 
 f = json.dumps(d)
 print(type(f))
+
 print(f)
+
+# Converting JSON to Python Objects 
+# If you have a JSON string, you can parse it by using the json.loads() method. 
+
+# import json 
+dictionary = '{"cname":"Python", "fees":12000, "duration":"2 Months"}'
+
+x = json.loads(dictionary)
+print(type(x))
+print(x)
+
