@@ -41,15 +41,15 @@ Game Start...
                 print("Computer Win")
                 ccount += 1
         if ucount == ccount:
-            print("Game Draw")
+            print("Game Draw......")
             print("Computer Count:", ccount)
             print("User Count:", ucount)
         elif ucount > ccount:
-            print("You Win")
+            print("You Win the Game....")
             print("Computer Count:", ccount)
             print("User Count:", ucount)
         else:
-            print("Computer Win")
+            print("Computer Win the Game....")
             print("Computer Count:", ccount)
             print("User Count:", ucount)
     else:
